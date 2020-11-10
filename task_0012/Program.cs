@@ -12,6 +12,13 @@ namespace task_0012
              * знак. После запятой должен стоять пробел, а перед восклицательным
              * знаком пробела быть не должно.
              */
+
+            Console.WriteLine("Введите имя:");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Привет, {0}!", name);
+
+            Console.ReadKey();
         }
     }
 }
