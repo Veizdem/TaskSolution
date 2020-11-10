@@ -13,6 +13,20 @@ namespace task_0013
              * Для числа 15 предыдущее число – 14.
              */
 
+            Console.Write("Введите число: ");
+            string stringNumber = Console.ReadLine();
+
+            int number = Convert.ToInt32(stringNumber);
+
+            int prevNumber, nextNumber;
+            prevNumber = number - 1;
+            nextNumber = number + 1;
+
+            Console.WriteLine("Следующее за числом {0} число - {1}.", number, nextNumber);
+            Console.WriteLine("Для числа {0} предыдущее число - {1}.", number, prevNumber);
+
+            Console.ReadKey();
+
         }
     }
 }
